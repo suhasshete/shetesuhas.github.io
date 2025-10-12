@@ -100,44 +100,45 @@
 
     <form action="https://formspree.io/f/mzzbqvkp" method="POST" enctype="multipart/form-data">
       <input type="hidden" name="_next" value="https://shetesuhas.github.io/thankyou.html">
-      <input type="hidden" name="_subject" value="अथर्व सोसायटी - नवीन तक्रार / सूचना">
+      <input type="hidden" name="_subject" value="Complaint/Suggestion Form">
 
-      <label>फ्लॅट क्रमांक *</label>
+      <label>Flat Number *</label>
       <input type="text" name="flat_number" required />
 
-      <label>मालकाचे नाव *</label>
+      <label>Owner's name *</label>
       <input type="text" name="owner_name" required />
 
-      <label>संपर्क क्रमांक *</label>
+      <label>Contact Number *</label>
       <input type="tel" name="contact_number" required />
 
-      <label>प्रकार *</label>
+      <label>Type *</label>
       <select name="type" required>
-        <option value="Complaint">तक्रार</option>
-        <option value="Suggestion">सूचना</option>
+        <option value="Complaint">Complaint</option>
+        <option value="Suggestion">Suggestion</option>
       </select>
 
-      <label>विभाग / श्रेणी *</label>
+      <label>Section / Category *</label>
       <select name="category" required>
-        <option value="सामान्य">सामान्य</option>
-        <option value="देखभाल">देखभाल</option>
-        <option value="सुरक्षा">सुरक्षा</option>
-        <option value="स्वच्छता">स्वच्छता</option>
-        <option value="इतर">इतर</option>
+        <option value="General">General</option>
+        <option value="Maintenance">Maintenance</option>
+        <option value="Garbage Collection / Cleaning / Sweeper">Garbage Collection / Cleaning / Sweeper</option>
+        <option value="स्वच्छता">Electricity</option>
+        <option value="Water Supply">Water Supply</option>
+        <option value="Other">Other</option>
       </select>
 
-      <label>तपशील *</label>
+      <label>Details *</label>
       <textarea name="description" rows="4" required></textarea>
 
-      <label>छायाचित्र जोडा (पर्यायी)</label>
+      <label>Add a photo (optional)</label>
       <input type="file" name="photo" accept="image/*" multiple />
 
-      <button type="submit">सबमिट करा</button>
+      <button type="submit">Submit</button>
     </form>
   </main>
 
   <footer>
-    <p>© 2025 अथर्व सहकारी गृहनिर्माण संस्था</p>
+    <p>© 2025 Atharva Cooperative Housing Society</p>
   </footer>
 </body>
 </html>
